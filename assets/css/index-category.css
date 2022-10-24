@@ -1,0 +1,22 @@
+
+.category-card .card-banner {
+  border-radius: var(--radius-10);
+}
+
+.category-card .img-cover {
+  transition: var(--transition-2);
+}
+
+.category-card:is(:hover, :focus-within) .img-cover {
+  transform: scale(1.08);
+}
+
+.category-card .card-title {
+  margin-block-start: 15px;
+  text-align: center;
+  transition: var(--transition-1);
+}
+
+.category-card .card-title:is(:hover, :focus) {
+  color: var(--portland-orange)
+}

@@ -1,0 +1,26 @@
+
+.hero {
+  margin-block-start: 85px;
+  min-height: 360px;
+  background-position: left;
+  text-align: center;
+}
+
+.hero-title .span {
+  font-size: 0.5em;
+}
+
+.hero-text {
+  color: var(--white);
+  margin-block: 15px 25px;
+}
+
+.hero .btn {
+  margin-inline: auto;
+}
+
+.hero .btn:is(:hover, :focus) {
+  background-color: var(--portland-orange);
+}
+
+
